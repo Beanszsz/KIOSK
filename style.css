@@ -1,0 +1,94 @@
+﻿body {
+  background-attachment: fixed;
+  font-family: "JetBrains Mono";
+  margin: 0;
+}
+
+#landingPage {
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#landingPage h1 {
+  font-size: 100px;
+}
+
+#landingPage p {
+  font-size: 25px;
+}
+
+#landingPage .button {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border: black 1px solid;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+#landingPage .button:hover {
+  background: black;
+  color: aliceblue;
+}
+
+#image_container {
+  background-image: url("images/blackbg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  height: 100vh;
+}
+
+#MAP {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+img {
+  max-width: 88%;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+area:hover {
+  outline: 8px solid;
+  outline-color: black;
+}
+
+.pop-up {
+  position: fixed;
+  top: 35%;
+  left: 7%;
+  padding: 12px;
+  width: 275px;
+  height: auto;
+  text-align: center;
+  align-items: center;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  border: #880015 solid;
+}
+
+.pp-info {
+  color: black;
+}
+
+.pp-info img {
+  vertical-align: middle;
+  border: black solid;
+  max-width: 100%;
+  height: auto;
+  width: 230px;
+  height: auto;
+}
